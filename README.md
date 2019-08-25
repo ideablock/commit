@@ -1,6 +1,5 @@
-![](https://ideablock.io/IBCLI.png)
+![](https://ideablock.io/ideablock-commit.png)
 
-# ideablock-commit
 Make your CI/CD pipeline immutable by leveraging the power of [IdeaBlock](https://ideablock.io) to automatically tether git commits to Bitcoin and Litecoin blockchains.
 
 # Prerequisites
