@@ -1,0 +1,41 @@
+{
+  "name": "ideablock-commit",
+  "version": "0.0.1",
+  "description": "CLI tool for anchoring git commit hashes to Bitcoin and Litecoin blockchains",
+  "main": "ideablock.js",
+  "bin": {
+    "ideablock-commit": "./ideablock.js"
+  },
+  "scripts": {
+    "init": "node ideablock.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ideablock/ideablock-commit.git"
+  },
+  "keywords": [
+    "ideablock",
+    "bitcoin",
+    "litecoin"
+  ],
+  "author": "Eli M. Sheets (github:emsheets)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ideablock/ideablock-commit/issues"
+  },
+  "homepage": "https://github.com/ideablock/ideablock-commit#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "chalk": "^2.4.2",
+    "cli-table2": "^0.2.0",
+    "crypto": "^1.0.1",
+    "form-data": "^2.5.0",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "node-fetch": "^2.6.0",
+    "ora": "^3.4.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.3"
+  }
+}
