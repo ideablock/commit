@@ -4,10 +4,7 @@
   "description": "CLI tool for anchoring git commit hashes to Bitcoin and Litecoin blockchains",
   "main": "ideablock.js",
   "bin": {
-    "ideablock-commit": "./ideablock.js"
-  },
-  "scripts": {
-    "init": "node ideablock.js"
+    "ideablock-commit": "./bin/ideablock.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +25,7 @@
     "async": "^3.1.0",
     "chalk": "^2.4.2",
     "cli-table2": "^0.2.0",
+    "commander": "^3.0.0",
     "crypto": "^1.0.1",
     "form-data": "^2.5.0",
     "fs-extra": "^8.1.0",
