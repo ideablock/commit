@@ -1,6 +1,7 @@
 ![](https://ideablock.io/ideablock-commit.png)
 
 Make your CI/CD pipeline immutable by leveraging the power of [IdeaBlock](https://ideablock.io) to automatically tether git commits to the Bitcoin and Litecoin blockchains.
+
 #Summary
 **So what does IdeaBlock Commit do, exactly?**
 Every time a user makes a commit to a local git repository in which IdeaBlock Commit is initialized,  it does the following:
