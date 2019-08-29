@@ -19,6 +19,7 @@ program
 
 program
   .command('on')
+  .alias('resume')
   .description('Turn on automatic tethering of git commits to Bitcoin and Litecoin blockchains in directory from which the command is called.')
   .action(function () {
     on.on()
@@ -26,6 +27,7 @@ program
 
 program
   .command('off')
+  .alias('pause')
   .description('Turn off automatic tethering of git commits to Bitcoin and Litecoin blockchains in the directory from which the command is called')
   .action(function () {
     off.off()
@@ -41,7 +43,7 @@ program
 
 program
   .command('remove')
-  .alias('rem')
+  .alias('uninstall')
   .description('Completely removes Ideablock Commit functionality in the directory from which the command is called, removes post-commit git hook, removes .ideablock directory from the repository')
   .action(function () {
     remove.remove()
