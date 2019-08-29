@@ -7,11 +7,12 @@ const off = require('../lib/off')
 const remove = require('../lib/remove')
 const help = require('../lib/help')
 const status = require('../lib/status')
+const run = require('../lib/run')
 
 program
   .command('init')
   .alias('i')
-  .description('Initiate automatic commit tethering to Bitcoin and Litecoin blockchains in the directory from which the command is called')
+  .description('initialize automatic commit tethering to Bitcoin and Litecoin blockchains in the directory from which the command is called')
   .action(function () {
     init.init()
   })
@@ -32,7 +33,7 @@ program
 
 program
   .command('status')
-  .alias('r')
+  .alias('s')
   .description('Completely removes Ideablock Commit functionality in the directory from which the command is called, removes post-commit git hook, removes .ideablock directory from the repository')
   .action(function () {
     status.status()
@@ -40,7 +41,7 @@ program
 
 program
   .command('remove')
-  .alias('r')
+  .alias('rem')
   .description('Completely removes Ideablock Commit functionality in the directory from which the command is called, removes post-commit git hook, removes .ideablock directory from the repository')
   .action(function () {
     remove.remove()
@@ -50,6 +51,12 @@ program
   .command('help')
   .action(function () {
     help.help()
+  })
+
+program
+  .command('run')
+  .action(function () {
+    run.run()
   })
 
 program.parse(process.argv)
