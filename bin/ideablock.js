@@ -35,7 +35,7 @@ program
 
 program
   .command('status')
-  .alias('s')
+  .alias('ping')
   .description('Completely removes Ideablock Commit functionality in the directory from which the command is called, removes post-commit git hook, removes .ideablock directory from the repository')
   .action(function () {
     status.status()
