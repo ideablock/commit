@@ -29,7 +29,7 @@
     "crypto": "^1.0.1",
     "form-data": "^2.5.0",
     "fs-extra": "^8.1.0",
-    "inquirer": "^7.0.0",
+    "inquirer": "^6.4.1",
     "node-fetch": "^2.6.0",
     "ora": "^3.4.0",
     "os": "^0.1.1",
