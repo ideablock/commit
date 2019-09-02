@@ -1,5 +1,5 @@
 {
-  "name": "ideablock-commit",
+  "name": "@ideablock/ideablock-commit",
   "version": "0.1.0",
   "description": "CLI tool for anchoring git commit hashes to Bitcoin and Litecoin blockchains",
   "main": "ideablock.js",
