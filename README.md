@@ -77,7 +77,7 @@ You can completely remove IdeaBlock Commit functionality from your repository at
 # Beta
 
 ***Important Information:***
-The current version, v0.0.1, is a first release and should be considered very beta.  Its functionality has been tested by our team - but please be aware that this is not production-ready software.  Please feel free to submit pull requests to add features or to create issues [when we publish to our pages on (GitHub](https://github.com/ideablock) and [npm](https://https://www.npmjs.com/org/ideablock) in the coming weeks).
+The current version is an initial release of IdeaBlock Commit and should be considered very beta.  Its functionality has been tested by our team - but please be aware that this is not production-ready software.  Please feel free to submit pull requests to add features or to create issues [when we publish to our pages on (GitHub](https://github.com/ideablock) and [npm](https://https://www.npmjs.com/org/ideablock) in the coming weeks).
 
 It is very important to remember that IdeaBlock never receives the actual files that form the substance of the repository you protect with IdeaBlock Commit.  It is therefore incumbent on every user to practice good operational security and ensure that a redundancy plan is in place when it comes to the files stored in your ~/.ideablock/commits directory.
 
