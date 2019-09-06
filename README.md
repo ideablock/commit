@@ -26,12 +26,29 @@ Every time a user makes a commit to a local git repository in which IdeaBlock Co
 
 # Installation
 
+**npm**
+
+```bash
+> npm i -g ideablock-commit
+```
+
+**Git**
+
+```bash
+> git clone https://github.com/ideablock/commit.git
+> cd commit
+> npm i -g
+```
+
+**Tarball**
 - Get the current tarball [IdeaBlock Commit homepage](https://ideablock.io/ideablock-commit)
 - Unpack the tarball
 - From the root of the unpacked ideablock-commit directory, install the package globally by running:
 
 ```bash
-> npm install -g
+> wget https://ideablock.io/ideablock-commit-latest.tgz
+> tar -xzvf ideablock-commit-latest.tgz
+> npm i -g
 ```
 
 # Usage
@@ -77,15 +94,16 @@ You can completely remove IdeaBlock Commit functionality from your repository at
 # Beta
 
 ***Important Information:***
-The current version is an initial release of IdeaBlock Commit and should be considered very beta.  Its functionality has been tested by our team - but please be aware that this is not production-ready software.  Please feel free to submit pull requests to add features or to create issues [when we publish to our pages on (GitHub](https://github.com/ideablock) and [npm](https://https://www.npmjs.com/org/ideablock) in the coming weeks).
+The current version is an initial release of IdeaBlock Commit and should be considered very beta.  Its functionality has been tested by our team - but please be aware that this is not production-ready software.  Please feel free to submit pull requests to add features or to let us know about any issues at the IdeaBlock Commit source page on [GitHub](https://github.com/ideablock/commit).  You can also find the package on [npm](https://https://www.npmjs.com/package/ideablock-cli) and [yarn](https://yarnpkg.com/en/package/ideablock-commit).
 
-It is very important to remember that IdeaBlock never receives the actual files that form the substance of the repository you protect with IdeaBlock Commit.  It is therefore incumbent on every user to practice good operational security and ensure that a redundancy plan is in place when it comes to the files stored in your ~/.ideablock/commits directory.
+It is very important to remember that IdeaBlock never receives the actual files that form the substance of the repository you protect with IdeaBlock Commit - they stay with you, locally.  It is therefore incumbent on every user to practice good operational security and ensure that a redundancy plan is in place when it comes to the files stored in your ~/.ideablock/commits directory.
 
-By only sending IdeaBlock the hashes associated with your repositories, you are even protecting yourself against us! Therefore,
+By only sending IdeaBlock the hashes associated with your repositories, you are even protecting yourself against any future argument that you disclosed a trade secret to a third party - namely, us! 
 
-Thank you for your interest in IdeaBlock Commit and the rest of our early software tools, which include [IdeaBlock Beta](https://beta.ideablock.io), [IdeaBlock CLI](https://npmjs.com/package/ideablock-cli).  We appreciate your help and feedback - they are key in making our offerings as robust and bug-free as possible!
+Thank you for your interest in IdeaBlock Commit and the rest of our early software tools, which include [IdeaBlock Beta](https://beta.ideablock.io) and [IdeaBlock CLI](https://npmjs.com/package/ideablock-cli) with more coming soon!  We appreciate your help and feedback - they are key in making our offerings as robust and bug-free as possible!
 
 Follow us on [Twitter](https://twitter.com/ldeaBlock) and our other [official channels](https://ideablock.io#contact)
 _____________
 
 ₁ Please be sure to read and agree to IdeaBlock Beta [Terms and Conditions](https://beta.ideablock.io/terms) when you [register](https://beta.ideablock.io)
+
